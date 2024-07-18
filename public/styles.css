@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("./images/sky3.jpg");
+    background-size: 102%;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 60px;
+
+}
+
+.body {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather_form {
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    color: black;
+    justify-content: center;
+}
+
+select, option, button {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+    padding: 130px 0px 130px 0px;
+    background-color: rgba(5,5,5,0.3);
+    color: white;
+}
+
+img {
+    height: 440px;
+    width: 520px;
+}
+
+.city {
+    max-width: 100%;
+    height: auto;
+}
+
+.data h2 {
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
